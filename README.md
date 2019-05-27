@@ -4,7 +4,7 @@ apt-get update  //apt-get パッケージの更新
 
 sudo apt-get install nodejs  //Node のインストール 
 
-sudo apt-get install npm  //Node パッケージ管理のインストール 
+sudo npm install  //Node パッケージ管理のインストール 
 
 sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10   //node コマンドを使用できるようにする 
 
