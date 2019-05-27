@@ -32,7 +32,7 @@ npm cache clean npm install –g n
 
 npm config set strict-ssl false
 
-npm install –g n 
+sudo npm install –g n 
 
 npm config set strict-ssl true 
 
