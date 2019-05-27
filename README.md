@@ -1,15 +1,39 @@
 cd video
 
-apt-get update  //apt-get パッケージの更新 
+apt-get update 
 
-sudo apt-get install nodejs  //Node のインストール 
+//Node のインストール
 
-sudo npm install  //Node パッケージ管理のインストール 
+sudo apt-get install nodejs  
 
-sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10   //node コマンドを使用できるようにする 
+//Node パッケージ管理のインストール 
 
-npm init  //Node パッケージ管理の初期化
+sudo npm install  
 
-npm install socket.io  //socket.io パッケージのインストール 
+//node コマンドを使用できるようにする 
+
+sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10   
+
+//Node パッケージ管理の初期化
+
+npm init  
+
+//socket.io パッケージのインストール 
+
+npm install socket.io  
+
+apt-get install nodejs npm 
+ 
+//n package のインストール 
+
+npm cache clean npm install –g n 
+ 
+※n package のインストールで失敗した場合は、以下の設定を行ってください。
+
+npm config set strict-ssl false
+
+npm install –g n 
+
+npm config set strict-ssl true 
 
 sudo node server/server.js
